@@ -1,0 +1,19 @@
+// sass --watch style.scss:../style.css --style compressed
+
+$color1: rgba(198, 216, 255, 1);
+$color2: rgba(113, 169, 247, 1);
+$color3: rgba(107, 92, 165, 1);
+$color4: rgba(114, 25, 90, 1);
+$color5: rgba(76, 16, 54, 1);
+
+$bg1: rgba(0, 0, 0, .25);
+
+$font1: 'Poiret One', cursive;
+$font2: 'Playball', cursive;
+$font3: 'Palanquin', sans-serif;
+
+@import 'reset';
+@import 'typography';
+@import 'base';
+@import 'home';
+@import 'footer';
