@@ -19,3 +19,32 @@ body {
     margin-right: auto;
     max-width: 50rem;
 }
+
+.l-module {
+    padding: 3rem 2rem 2rem 2rem;
+
+    + .l-module {
+        margin-top: 3rem;
+    }
+
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin-bottom: .25em;
+}
+
+h2 {
+    font-size: 2.25rem;
+    margin-bottom: .33em;
+}
+
+h3 {
+    font-size: 1.56rem;
+    margin-bottom: .5em;
+}
+
+p,
+address {
+    margin-bottom: 1em;
+}

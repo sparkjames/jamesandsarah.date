@@ -1,8 +1,6 @@
 
 .splash {
-    color: #fff;
     text-align: center;
-    padding: 3rem 2rem 2rem 2rem;
     position: relative;
 
     @media screen and (max-width: 500px){
@@ -21,7 +19,6 @@
 }
 
 .splash-heading {
-    font-family: $font1;
     font-size: 4rem;
 
     @media screen and (max-width: 500px){
