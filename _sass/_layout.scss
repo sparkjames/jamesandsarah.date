@@ -1,9 +1,10 @@
 body {
-    background: -webkit-linear-gradient(-50deg, $color4, $color2);
-    background: $color2;
-    background: linear-gradient(130deg, $color4, $color2);
+    background: -webkit-linear-gradient(-50deg, $secondary, $primary);
+    background: $primary;
+    background: linear-gradient(130deg, $secondary, $primary);
     font-size: 1.2rem;
     line-height: 1.3;
+    color: $text;
 }
 
 .l-wrapper {

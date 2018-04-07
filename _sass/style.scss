@@ -1,5 +1,8 @@
 // sass --watch style.scss:../style.css --style compressed
 
+$primary: #697aa7;
+$secondary: #e595a7;
+
 $color1: rgba(198, 216, 255, 1);
 $color2: rgba(113, 169, 247, 1);
 $color3: rgba(107, 92, 165, 1);
@@ -7,6 +10,8 @@ $color4: rgba(114, 25, 90, 1);
 $color5: rgba(76, 16, 54, 1);
 
 $bg1: rgba(0, 0, 0, .25);
+
+$text: antiquewhite;
 
 $font1: 'Poiret One', cursive;
 $font2: 'Playball', cursive;
