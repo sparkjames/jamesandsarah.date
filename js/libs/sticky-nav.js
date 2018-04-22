@@ -56,12 +56,12 @@ function jp_determine_sticky_nav_defaults(this_tab_nav){
 // JP scrollspy cb
 // Populates the tab_section_positions[] array (which must already exist on a global scope) with the scroll positions of the elements in the tab_section_ids[] array. Used as callback on page load and on window resize event.
 function jp_get_section_positions_cb(tab_section_ids){
-	console.log( 'start jp_get_section_positions_cb() ');
+	// console.log( 'start jp_get_section_positions_cb() ');
 
 	for( i=0; i<tab_section_ids.length; i++ ){
 		var this_tab_section = document.getElementById( tab_section_ids[i] );
-		console.log('this_tab_section = ');
-		console.log(this_tab_section);
+		// console.log('this_tab_section = ');
+		// console.log(this_tab_section);
 
 		if( this_tab_section !== null ){
 			var this_tab_section_shape = this_tab_section.getBoundingClientRect();
@@ -110,17 +110,17 @@ var tab_section_ids = [
 
 var tab_section_positions = [];
 jp_get_section_positions_cb(tab_section_ids);
-console.log( tab_section_positions );
+// console.log( tab_section_positions );
 
 window.addEventListener( 'resize', function(){
 	jp_get_section_positions_cb(tab_section_ids);
 });
 
 window.addEventListener( 'scroll', function(){
-	console.log('scrolling');
+	// console.log('scrolling');
 	var current_scroll_distance = window.pageYOffset + (window.outerHeight * 0.6);
-console.log( 'scroll distance = ');
-console.log(current_scroll_distance);
+// console.log( 'scroll distance = ');
+// console.log(current_scroll_distance);
 
 	var active_tab_id = 0;
 	var active_tab = 0;
@@ -144,7 +144,7 @@ console.log(current_scroll_distance);
 			jpAddClass(active_tab, 'is-active');
 
 		} catch( error ){
-			console.log(error);
+			// console.log(error);
 		}
 
 	} else {
@@ -152,7 +152,7 @@ console.log(current_scroll_distance);
 			jpRemoveClass(tabs, 'is-active');
 
 		} catch( error ){
-			console.log(error);
+			// console.log(error);
 		}
 	}
 
