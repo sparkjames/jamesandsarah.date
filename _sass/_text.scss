@@ -5,6 +5,11 @@
         font-size: 4rem;
         padding-bottom: .25em;
         margin-bottom: .25em;
+
+        @media screen and (max-width: 400px){
+            font-size: 3rem;
+        }
+        
     }
 
 }

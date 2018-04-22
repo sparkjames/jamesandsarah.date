@@ -79,7 +79,7 @@ function jp_get_section_positions_cb(tab_section_ids){
 
 // Sticky Nav
 // Get the tab navigation element.
-var tab_nav = document.querySelectorAll('.main-nav');
+var tab_nav = document.querySelectorAll('.main-nav-container');
 var tab_nav_original_shape = 0;
 var tab_nav_original_height = 0;
 var tab_nav_scroll_threshold = 0;

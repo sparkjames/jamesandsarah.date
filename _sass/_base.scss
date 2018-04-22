@@ -10,7 +10,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.6rem;
+    font-size: 1.875rem;
     font-weight: bold;
     margin-bottom: .75em;
 }
@@ -28,4 +28,12 @@ a {
         color: $color2;
     }
 
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
 }

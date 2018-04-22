@@ -49,7 +49,7 @@
     </nav>
 </header> -->
 
-<main class="l-wrapper">
+<main id="top" class="l-wrapper">
 
     <div class="l-container">
 
@@ -57,7 +57,7 @@
 
             <div class="splash-caption">
                 <h1 class="splash-heading">James and Sarah</h1>
-                <p class="splash-text">Sunday, September 2, 2018</p>
+                <p class="splash-text">Sunday, <wbr>September 2, 2018</p>
                 <p class="splash-text">Lousiville, KY</p>
             </div>
 
@@ -69,10 +69,13 @@
 
         </div><!-- END .splash -->
 
-        <nav class="main-nav">
-            <ul class="main-nav-items">
-                <li class="main-nav-item show-mobile">
-                    <a class="main-nav-link" href="https://jamesandsarah.date/" data-jump-link="1">Home</a>
+        <nav class="main-nav-container">
+
+            <a class="main-nav-toggle" href="#main-nav">Menu <span class="icon-hamburger"></span></a>
+
+            <ul id="main-nav" class="main-nav-items">
+                <li class="main-nav-item show-tablet">
+                    <a class="main-nav-link main-nav-close" href="#0"><span class="icon-close">+</span> close menu</a>
                 </li>
                 <li class="main-nav-item">
                     <a class="main-nav-link" href="#wedding-info" data-jump-link="1">Wedding Info</a>
@@ -84,17 +87,34 @@
                     <a class="main-nav-link" href="#things-to-do" data-jump-link="1">Things To Do</a>
                 </li>
             </ul>
+
         </nav>
 
         <div id="wedding-info" class="text l-module">
             <div class="text-inner">
                 <h2>Wedding Info</h2>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse finibus ex dapibus sem bibendum, eget mollis nibh convallis. Cras in augue mollis, ullamcorper enim varius, tristique purus. Vivamus condimentum, erat ut maximus fermentum, nulla libero iaculis neque, eget pulvinar urna ipsum nec justo. Donec luctus lectus sit amet orci consectetur, eu pellentesque felis euismod. Curabitur fermentum nisl id augue venenatis dignissim at sit amet tellus. Suspendisse at orci blandit, tincidunt ex vel, faucibus metus. Sed sollicitudin volutpat nulla sit amet bibendum. Donec eu rhoncus enim. In sodales vulputate aliquam.</p>
+                <ul class="listings">
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse finibus ex dapibus sem bibendum, eget mollis nibh convallis. Cras in augue mollis, ullamcorper enim varius, tristique purus. Vivamus condimentum, erat ut maximus fermentum, nulla libero iaculis neque, eget pulvinar urna ipsum nec justo. Donec luctus lectus sit amet orci consectetur, eu pellentesque felis euismod. Curabitur fermentum nisl id augue venenatis dignissim at sit amet tellus. Suspendisse at orci blandit, tincidunt ex vel, faucibus metus. Sed sollicitudin volutpat nulla sit amet bibendum. Donec eu rhoncus enim. In sodales vulputate aliquam.</p>
+                    <li>
+                        <h3>Ceremony</h3>
+                        <p>September 2, 2018 at 4:30pm</p>
+                        <p>St. John United Church of Christ</p>
+                        <address>637 E Market St, Louisville, KY 40202</address>
+                        <p><a target="_blank" rel="noopener" href="https://goo.gl/maps/RAdtr75ufQA2">View Map</a></p>
+                        <p><a target="_blank" rel="noopener" href="http://www.saintjohnucc.com/">Website</a></p>
+                    </li>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse finibus ex dapibus sem bibendum, eget mollis nibh convallis. Cras in augue mollis, ullamcorper enim varius, tristique purus. Vivamus condimentum, erat ut maximus fermentum, nulla libero iaculis neque, eget pulvinar urna ipsum nec justo. Donec luctus lectus sit amet orci consectetur, eu pellentesque felis euismod. Curabitur fermentum nisl id augue venenatis dignissim at sit amet tellus. Suspendisse at orci blandit, tincidunt ex vel, faucibus metus. Sed sollicitudin volutpat nulla sit amet bibendum. Donec eu rhoncus enim. In sodales vulputate aliquam.</p>
+                    <li>
+                        <h3>Reception</h3>
+                        <p>September 2, 2018 at 5:30pm</p>
+                        <p>The Brown Hotel</p>
+                        <address>335 W Broadway, Louisville, KY 40202</address>
+                        <p><a target="_blank" rel="noopener" href="https://goo.gl/maps/i9JdXG9bNxz">View Map</a></p>
+                        <p><a target="_blank" rel="noopener" href="https://www.brownhotel.com/">Website</a></p>
+                    </li>
+
+                </ul>
 
             </div>
         </div><!-- END .text -->
@@ -274,13 +294,15 @@
     </div><!-- END .l-container -->
 
     <footer>
-        Last updated April 7, 2018
+        Last updated April 22, 2018
     </footer>
 
 </main><!-- END .l-wrapper -->
 
-<script src="js/libs/not-jquery.js"></script>
+<script src="js/bundle.js"></script>
+<!-- <script src="js/libs/not-jquery.js"></script>
 <script src="js/libs/smooth-scrolling.js"></script>
 <script src="js/libs/sticky-nav.js"></script>
+<script src="js/libs/mobile-nav.js"></script> -->
 </body>
 </html>

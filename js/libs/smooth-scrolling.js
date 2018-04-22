@@ -23,8 +23,8 @@ function jp_jump_link_cb(event){
     ) {
         var target = document.querySelectorAll(this.hash);
         target = target.length ? target : document.querySelectorAll('[name=' + this.hash.slice(1) + ']');
-        console.log( 'scroll target = ');
-        console.log(target);
+        // console.log( 'scroll target = ');
+        // console.log(target);
 
         // Does a scroll target exist?
         if (target.length) {

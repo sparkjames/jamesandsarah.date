@@ -1,3 +1,13 @@
+.show-tablet {
+    display: none;
+
+    @media screen and ( max-width: $size-tablet ) {
+        display: block;
+    }
+
+}
+
+
 .show-mobile {
     display: none;
 
