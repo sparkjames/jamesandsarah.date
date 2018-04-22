@@ -17,12 +17,18 @@ $font1: 'Poiret One', cursive;
 $font2: 'Playball', cursive;
 $font3: 'Palanquin', sans-serif;
 
+$size-mobile: 600px;
+$size-tablet: 720px;
+$size-desktop: 1100px;
+
 @import 'reset';
 @import 'typography';
 @import 'base';
 @import 'layout';
 @import 'home';
+@import 'navigation';
 @import 'splash';
 @import 'text';
 @import 'things-to-do';
 @import 'footer';
+@import 'mobile';

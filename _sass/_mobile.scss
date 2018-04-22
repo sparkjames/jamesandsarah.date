@@ -1,0 +1,8 @@
+.show-mobile {
+    display: none;
+
+    @media screen and ( max-width: $size-mobile ) {
+        display: block;
+    }
+
+}
