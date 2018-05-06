@@ -1,0 +1,24 @@
+.button {
+    background-color: desaturate( $color2, 50% );
+    color: #fff;
+    border-radius: .33em;
+    display: inline-block;
+    padding: 1.5em;
+    border: .2em solid rgba(255,255,255,.1);
+    transition: background-color 125ms linear;
+    box-shadow: 0 1px 10px 3px rgba(0,0,0,0.15);
+
+    &-registry {
+        width: 66%;
+
+        @media screen and (max-width: 400px){
+            width: 100%;
+        }
+
+    }
+
+    &:hover {
+        background-color: $primary;
+    }
+
+}
